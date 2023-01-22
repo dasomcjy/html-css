@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'SDMiSaeng';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SDMiSaeng.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 .pro3 {
@@ -448,11 +455,36 @@ main .submain .t1 {
   padding-bottom: 20px;
 }
 
+.submain3 .midt {
+  font-size: 25px;
+  color :#D9F3FF;
+  margin-top: 20px;
+  border-left: 2px solid #F1F1E6;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.submain3 .mid2 {
+  margin-top: 50px;
+}
+
+.submain3 .midcon2 {
+  color :#F1F1E6;
+  font-size: 20px;
+  word-spacing: 5px;
+  padding-right: 30px;
+}
 .submain3 .rightbox {
 margin-top: 50px;
   
 }
 
+.submain3 .comment1 {
+  color: #F1F1E6;
+  margin-top: 20px;
+  font-family: 'SDMiSaeng';
+  font-size: 25px;
+}
 .submain3 .rightbox textarea{
   border-radius: 10px;
   width: 380px;
